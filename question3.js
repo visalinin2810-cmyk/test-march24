@@ -16,13 +16,13 @@ function placeOrder() {
 
 }
 
-function makePayment() {
+function Payment() {
     setTimeout(() => {
       console.log("Payment completed");
     }, 1500);
 }
 
 placeOrder()
-makePayment()
+Payment()
 
 
